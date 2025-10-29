@@ -1,0 +1,15 @@
+.optionMenu {
+  background-color: var(--primary);
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.optionMenu:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

@@ -6,6 +6,8 @@
   // 🛠 Formatação e Lint
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "workbench.editor.labelFormat": "short",
+  "editor.tabSize": 2,
 
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"

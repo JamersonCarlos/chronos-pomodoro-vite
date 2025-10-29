@@ -6,12 +6,14 @@ import { Timer } from 'lucide-react';
 //   children: string;
 // };
 
-export function Heading() {
+export function Logo() {
   return (
     <>
-      <div className={styles.heading}>
-        <Timer className={styles['heading-icon']} />
-        <h1>Chronos</h1>
+      <div className={styles.logo}>
+        <a href="#" className={styles.logoLink}>
+          <Timer size={64} />
+          <span>Chronos</span>
+        </a>
       </div>
     </>
   );

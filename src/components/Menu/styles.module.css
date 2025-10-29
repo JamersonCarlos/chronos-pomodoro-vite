@@ -1,0 +1,11 @@
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.menu svg {
+  color: var(--gray-800);
+  size: 50px;
+}
